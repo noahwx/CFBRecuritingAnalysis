@@ -67,12 +67,15 @@
 #### The first step I took in the notebook was to import the necessary libraries I needed. The libraries I used in the notebook included pandas, glob, os, pathlib, seaborn and matplotlib. 
 
 ## Second Step:
-#### The second step I took was to combine the 10 csv's into one csv, and then read the combined csv into a dataframe for pandas.
+#### The second step I took was to combine the 10 csv's into one csv, and then read the combined csv into a dataframe for use with pandas. To combine the 10 csv's together I first set a varible named "path" to the file path of the dataset folder from the webscrapper, next the glob library was used to combine files and lastly I outputed the glob data to a variable named "file". I then created the dataframe variable called "dfs". After this I created a for loop to set the vairable "file" to "f", read the combined file to pandas as a "data", used the .stem method from pathlib to get the filename without the extension, next I appended the data to the dataframe "dfs". And, finally I used the concatenate object from pandas to concatenate the "dfs" dataframe, and set the dataframe to "df".  
 ![image](https://user-images.githubusercontent.com/47571584/183333321-ec880625-524d-4bd9-bf96-fb535d337640.png)
 
 ## Third Step:
 #### The third step I took was to clean the dataframe to fit what I needed for the project. 
+
+#### The first step I took when cleaing the data was to sort the 'date_ranked', and 'ranking' columns in ascending order. After sorting the data, I then dropped the 'date_w_accessed', and the 'file' columns.  
 ![image](https://user-images.githubusercontent.com/47571584/183333516-38b044d7-c447-41bb-a7c0-67c761f55655.png)
+#### The second step I took in cleaning the data was to replace the "-", "$", "K" to "0", "", "", double quatations is to set the dollar sign ("$") and "K" to nothing. After replacing the strings I then set the type og the 'avg_nil' to a float.
 ![image](https://user-images.githubusercontent.com/47571584/183333584-7f2ce479-d8a1-4e8c-8699-f46dad0a47d5.png)
 
 ## Fourth Step:
