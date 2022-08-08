@@ -1,7 +1,7 @@
 # College Football Recruitment Ranking Analysis
 
 ### Analysis of on3 College Football Recruiting Data
-#### Analysis of ten years worth of on3 college football recruiting data of the top 50 teams. From the data I wanted to find what teams were succesfull at recruiting and what teams that are not. When it comes to college football recruiting, recruiting the best players(five stars) or the players who are not viewed by sport journalist as being the cream of the crop when it comes to recruits. I learned a lot about different teams throughout this project and I hope that you can also.
+#### Analysis of ten years worth of on3 college football recruiting data of the top fifty teams in college. From the data, I wanted to find what teams were successful at recruiting and what teams that are not. For college football recruiting, recruiting the best players (five stars) is what every team strives for. However, it does not discredit nor prove that a specific five-star rated player is what is needed for a particular team. I learned much about different teams throughout this project, and I hope you can also.
 
 ### How did I start this project?
 #### To begin this project all that was needed was a python webscrapper, a url, and some crucial python librarys. To build the webscrapper I used these libraries BeautifuSoup4, Requests, csv, datetime, pandas, os, urllib and pathlib. All eight of theses lobrares help me to achieve my first goal of this project. 
