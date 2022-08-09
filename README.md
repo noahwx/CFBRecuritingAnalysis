@@ -6,6 +6,9 @@
 ### How did I start this project?
 #### To begin this project all that was needed was a python webscrapper, a url, and some crucial python librarys. To build the webscrapper I used these libraries BeautifuSoup4, Requests, csv, datetime, pandas, os, urllib and pathlib. All eight of theses lobrares help me to achieve my first goal of this project. 
 
+### Goals of the Project
+#### Build my expertise in data analysis, webscrapping with python and building dashboards.
+
 ## Objective #1
 #### The first objective I had for this project was to have the ability to simply take the url of the on3 rankings (https://www.on3.com/db/rankings/consensus-team/football/2023/), and extract a teams ranking, team name, amount of five, four, and three star players recruited, a teams total commits, a teams average rating, avgerage NIL (Name, Iamge and Likeness) spent by teams, and a teams on3 score.
 
