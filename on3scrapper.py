@@ -18,11 +18,12 @@ Select operation:
 [1] on3 
 [2] Instructions
 [3] Exit program
-
 ''')
         if operation == '1':
-            url = input('Paste the url:')
+            url = input('Paste the url: ')
             page = requests.get(url)
+
+            path = input('Paste the path to the dataset folder: ')
 
             soup = BeautifulSoup(page.content, 'html.parser')
             chart = soup.find('ol')
@@ -54,9 +55,7 @@ Select operation:
                     'on3_score' : item.find(class_='TeamRow_score__upKOD').find('p').text
                 })
 
-            path = r'C:\Users\Noah Fontenette\Desktop\Data Analysis Practice\Webscraping\CFB Recruiting Rankings Analysis\dataset'
             outfile = os.path.join(path, f'{year}_on3.csv')
-
 
             df = pd.DataFrame(data)
             df.to_csv(outfile, index=False)
@@ -64,9 +63,8 @@ Select operation:
 
         elif operation == '2':
             print("Instructions\n")
-            print('Copy the url from on3 CFB Recruiting Rankings webpage.\n Create a folder named dataset.')
-            number = int(input())
-            mylist.pop(number)
+            print('Create a folder named dataset.\nCopy the url from on3 CFB Recruiting Rankings webpage.\nIn the scrapper, select the [1] option.\nPaste the on3 rankings url.\nCopy the filepath that was created earlier.\nPaste the file path next.\nThe program will run and save the scrapped file to the path pasted.')
+            continue
 
         elif operation == '3':
             break
