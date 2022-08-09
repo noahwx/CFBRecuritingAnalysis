@@ -79,6 +79,34 @@
 ![image](https://user-images.githubusercontent.com/47571584/183333584-7f2ce479-d8a1-4e8c-8699-f46dad0a47d5.png)
 
 ## Fourth Step:
-#### The fourth step I took was to began the process of analyzing the data at hand. 
+#### The fourth step I took was to began the process of analyzing the data at hand. To start I used the describe object of pandas to learn about some of the statistical informaton of the data. To start I answered a few questions I wanted to answer.
+ 
+## Questions
+### Question #1: Which Team has the most commits during a recruiting period in the past 10 years?
+#### South Carolina
 
+### Question #2: Which Team has the most commits on average during a recruiting period in the past 10 years?
+#### Kansas
 
+### Question #3 Which Team has the most commits in the past 10 years?
+#### Georgia
+
+### Question #4 Which Team has the least commits in the past 10 years?
+#### Northern Iowa
+
+### Question #5 Which Team has the most five star recruits for the past 10 years?
+#### Alabama
+
+### Question #6 Which Teams have the least five star recurits for the past 10 years?
+#### Georgia Tech, Washington State, Northwestern, Wake Forest, Kansas, Oregon State, Utah, Northern Iowa, Purdue, Boston College, UCF, Texas Tech, Cincinnati, Iowa State
+
+### Question #7 Which team has the highest on3 score?
+#### Alabama
+
+### Question #8 Which team has the lowest on3 score?
+#### Northern Iowa
+
+### Question #9 What is Oregon State's on3 Score for the past 10 years?
+#### 85.283
+
+## After these questions, I wanted to look deeper into the data by breaking it down into the respective conferences of each school, the state the school is in and teams that have won a national championship.
